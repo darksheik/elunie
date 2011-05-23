@@ -1,0 +1,47 @@
+These are the details of the challenge placed before me.
+
+# Elunie Game
+# 
+# Create a game that is playable from the console.  There are 8 possible rules for the game (listed below).
+# 
+# Each time a game begins, a rule is selected at random and 3 series are generated that the player can use to determine
+# which rule the game has selected.  At this point, the player enters three letters (one each for type, color and size).
+# The game informs the player if he is correct after each of his moves.  Once the player has correctly made 5 moves, he
+# wins and the game is over.  If he makes any incorrect moves, he loses.  
+# 
+# The elements of the game are -
+# 
+# Figures: circle, lozenge
+# Sizes: small, big
+# Colors: yellow, blue
+# 
+# 
+# The rules are:
+# 
+# 1) if the last figure is a lozenge, choose a blue one, if not choose one of the same size
+# 2) if the last figure is yellow, choose a big one, if not choose a small one
+# 3) if the last figure is yellow, choose a circle, if not choose a lozenge
+# 4) if the last figure is blue, choose a circle, if not choose a lozenge
+# 5) if the last figure is blue, choose a big figure, if not choose a different type
+# 6) if the last figure is blue, choose a big figure, if not choose a circle
+# 7) if the last figure is a circle, choose a blue figure, if not choose a yellow one
+# 8) if the last figure is a circle, choose a small one, if not choose a big one
+# 
+# 
+# Example of a game (Using the first rule)
+# 
+# % ./elunie
+# 
+# Welcome to Elunie!
+# The first 3 moves are
+# 
+# big yellow lozenge
+# small blue circle
+# small yellow lozenge
+# 
+# Enter the next move:
+# [this is user input...] big blue lozenge
+# Correct!
+# [this is user input...] big yellow circle
+# Incorrect! You lose!
+# %
